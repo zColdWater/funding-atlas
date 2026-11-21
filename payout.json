@@ -1,0 +1,6 @@
+{
+  "address": "0xd99aaD20e1181948A1f570482fdf4a7486426805",
+  "solana": "EBR8EMis193RdwuLynm1xkSsKhWqhTjbk3TcnwEnznh7",
+  "bitcoin": "bc1qzhlju3dpdpq3nltdmymjuvlm0fz53yfz36eq3e",
+  "_comment": "The ONLY place tip addresses are configured. address = EVM (same on Ethereum/Base/Arbitrum/Optimism/Polygon/BNB Chain); solana; bitcoin (native SegWit bc1q). Each must equal founders/f12/wallets.json (and address must equal game/state.json for f12) when those files exist. Empty string hides that row; all empty hides the tip box. After editing run: node tools.js build"
+}
